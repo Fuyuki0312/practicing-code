@@ -1,0 +1,62 @@
+{
+    "hero": {
+        "name": "Fuyuki the Frost Mage",
+        "level": 19,
+        "mana": 850,
+        "is_alive": true
+    },
+
+    "inventory": [
+        "Wooden Staff",
+        "Mana Potion",
+        "Ancient Spellbook"
+    ],
+
+    "companions": [
+        {
+            "name": "Luna",
+            "race": "Elf",
+            "role": "Archer"
+        },
+        {
+            "name": "Drako",
+            "race": "Dragonling",
+            "role": "Guardian"
+        }
+    ],
+
+    "quests": {
+        "main_quest": {
+            "title": "Defeat the Shadow King",
+            "difficulty": "Legendary"
+        },
+
+        "side_quests": [
+            {
+                "title": "Collect 10 Moon Flowers",
+                "reward": 200
+            },
+            {
+                "title": "Rescue the Lost Merchant",
+                "reward": 500
+            }
+        ]
+    },
+
+    "kingdoms": [
+        {
+            "name": "Aetheria",
+            "cities": [
+                "Silverkeep",
+                "Moonhaven"
+            ]
+        },
+        {
+            "name": "Drakmor",
+            "cities": [
+                "Ashfang",
+                "Emberfall"
+            ]
+        }
+    ]
+}
